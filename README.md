@@ -11,7 +11,7 @@ It is originally a plugin from my other library (lightquery, currently in-dev), 
 ## Accessing variables ##
 ```css
 :root{
-	--variable-name: 42;
+  --variable-name: 42;
 }
 ```
 To access this variable, we simply use
