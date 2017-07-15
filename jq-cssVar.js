@@ -1,4 +1,15 @@
-(function($){
+(function(factory){
+    if(typeof define == "function" && define.amd)
+        //AMD: register as anonymous module
+        define(["jquery"], factory);
+    else if(typeof exports == "object")
+        //Node(npm)/CommonJS
+        module.exports = factory;
+    else
+        //regular use of the plugin
+        factory(jQuery);
+
+})(function($){
     //check if there's variable support before attaching the plugin to jQuery
     if(window.CSS && window.CSS.supports && window.CSS.supports("--css-var", 0)){
         //GLOBAL PLUGIN
@@ -40,4 +51,4 @@
         }
     }else
         throw new Error("This browser doesn't have enough CSS support to use CSS variables.");
-})(jQuery);
+});

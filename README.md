@@ -9,9 +9,7 @@ It is originally a plugin from my other library (lightquery, currently in-dev), 
 ----
 
 ## How to install/use ? ##
-For now there is no npm package for this plugin, it might appear someday (in which case I'll update this part).
-
-For now you need to download the library manually from this repository and include it in your HTML/PHP file :
+***Witout NPM***
 
 ```html
   <head>
@@ -25,6 +23,17 @@ For now you need to download the library manually from this repository and inclu
 ```
 
 Once that is done, you can use cssVar in any script loaded after the plugin.
+
+***With NPM***
+```
+npm install jq-cssvar
+```
+
+```javascript
+//We'll suppose that jQuery is already loaded (script tag or require) as $
+require("path/to/the/cssVar/plugin")($);
+//now loaded
+```
 
 ## Accessing variables ##
 ```css
