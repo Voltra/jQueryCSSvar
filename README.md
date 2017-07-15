@@ -49,7 +49,7 @@ jQuery.cssVar("var", 42); //returns jQuery for chaining
 jQuery.cssVar("var"); //returns 42
 ```
 
-##Non-global (instance) variables##
+## Non-global (instance) variables ##
 Even though using only global CSS variables is the best use case, sometimes you just need to have non-global variables/modify those variables locally.
 Therefore cssVar is also ready for this.
 
