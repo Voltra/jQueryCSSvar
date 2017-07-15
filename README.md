@@ -9,7 +9,7 @@ It is originally a plugin from my other library (lightquery, currently in-dev), 
 ----
 
 ## How to install/use ? ##
-For now there is now npm package for this plugin, it might appear someday (in which case I'll update this part).
+For now there is no npm package for this plugin, it might appear someday (in which case I'll update this part).
 
 For now you need to download the library manually from this repository and include it in your HTML/PHP file :
 
