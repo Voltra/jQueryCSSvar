@@ -28,7 +28,7 @@
             if(/^--\w+(?:\w|-)*$/.test(varname)  &&  this[0]){                
                 if( ((typeof value == typeof "abc42") || (typeof value == typeof 42)) && value==value ){
                     //only allows numbers and string, doesn't allow NaN
-                    this.each((e)=>{
+                    this.each((i,e)=>{
                         e.style.setProperty(varname, value);
                     });
                 }else{
