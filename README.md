@@ -18,7 +18,7 @@ For now you need to download the library manually from this repository and inclu
     <!-- [...] -->
 
     <script src="path/to/jquery"></script>
-    <script src="path/to/the/plugin"></script>
+    <script src="path/to/the/cssVar/plugin"></script>
 
     <!-- [...] -->
   </head>
