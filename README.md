@@ -78,7 +78,7 @@ jQuery(".class").eq(0).cssVar("var1"); //returns 440
 jQuery(".class").eq(2).cssVar("var1"); //returns 440
 ```
 
-##Specifications##
+## Specifications ##
 - Using the getter only retrieves the variable's value from the first element of the matched set
 - Using the setter sets the variable's value for each element of the matched set
 - If an error occurs, it returns what the method was called on (the matched set if instance, jquery if global)
