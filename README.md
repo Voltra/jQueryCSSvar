@@ -79,7 +79,7 @@ jQuery(".class").eq(2).cssVar("var1"); //returns 440
 ```
 
 ## Specifications ##
-- Using the getter only retrieves the variable's value from the first element of the matched set
-- Using the setter sets the variable's value for each element of the matched set
+- The getter only retrieves the variable's value from the first element of the matched set
+- The setter sets the variable's value for each element of the matched set
 - If an error occurs, it returns what the method was called on (the matched set if instance, jquery if global)
 - All modifications you can do to those variables follow the same rules as if they were done in CSS (cf. [How to use CSS variables (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables))
